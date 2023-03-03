@@ -1,0 +1,59 @@
+body, html {
+	width: 100%;
+	height: 100%;
+
+/*	Text Fomratting*/
+	font-family: 'Roboto Mono', monospace;
+	color: whitesmoke;
+
+	/*Background Image*/
+	background: url(header.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	 background-size: cover;
+}
+
+h1 {
+/*	Text Alignment*/
+	
+}
+
+hr {
+	border-color: whitesmoke;
+	border-width: 3px;
+	max-width: 65px;
+	margin: auto;
+}
+
+.buffer {
+	height: 18rem;
+}
+
+.bufferhr {
+	height: 2rem;
+}
+
+.btn {
+	font-weight: 600;
+	border-radius: 100px;
+}
+
+.btn-outline-light {
+	color: whitesmoke;
+	transition: all 2s;
+}
+
+.btn-outline-light:hover {
+/*	background-color: grey;*/
+	
+}
+
+.btn-lg{
+/*Sizing*/
+	padding: 1rem 2rem;
+	
+}
+
+
+
